@@ -268,7 +268,7 @@ body.nav-active{
 /* -------------------- Header Section CSS End -------------------- */
 /* -------------------- Hero Section CSS Start -------------------- */
 .hero{
-    padding-block-start: cal(var(--section-padding) + 50px);
+    padding-block-start: calc(var(--section-padding) + 50px);
     background-color: var(--cultured);
 }
 .hero .container{
