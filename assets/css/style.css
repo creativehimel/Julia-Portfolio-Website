@@ -114,11 +114,12 @@ body.nav-active{
     font-size: 2rem;
     transition: var(--transition-1);
 }
+.social-link:is(:hover, :focus-visible){
+    transform: translateY(-3px);
+}
 /* -------------------- Reused CSS End -------------------- */
 /* -------------------- Header Section CSS Start -------------------- */
-.overlay{
-    display: none;
-}
+
 .header{
     position: absolute;
     top: 0;
@@ -203,6 +204,21 @@ body.nav-active{
 }
 .contact-link:is(:hover, :focus-visible){
     color: var(--cinnamon-satin);
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--raisin-black);
+    pointer-events: none;
+    opacity: 0;
+    transition: var(--transition-1);
+}
+.overlay.active{
+    pointer-events: all;
+    opacity: 0.8;
 }
 
 /* -------------------- Header Section CSS End -------------------- */
