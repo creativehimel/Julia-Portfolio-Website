@@ -109,6 +109,7 @@ body.nav-active{
     display: flex;
     align-items: center;
     gap: 12px;
+    padding-block-end: 50px;
 }
 .social-link{
     font-size: 2rem;

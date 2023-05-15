@@ -17,4 +17,12 @@ const toggleNavbar = function () {
 }
 
 addEventOnElements(navTogglers, "click", toggleNavbar)
-/* --------------------- Add event listener on multiple elements -------------------- */
+/* --------------------- Header active when window scroll down to 100px -------------------- */
+const header = document.querySelector("[data-header]");
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 100) {
+        header.classList.add("active");
+    } else {
+        header.classList.remove("active");
+    }
+});
