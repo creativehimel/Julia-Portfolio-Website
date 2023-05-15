@@ -118,6 +118,49 @@ body.nav-active{
 .social-link:is(:hover, :focus-visible){
     transform: translateY(-3px);
 }
+.section{
+    padding-block: var(--section-padding);
+}
+.w-100{
+    width: 100%;
+}
+.h1, .h2, .h3, .h4{
+    color: var(--charcoal);
+    line-height: 1.3;
+}
+.h1{
+    font-size: var(--fs-1);
+}
+.h2{
+    font-size: var(--fs-2);
+}
+.h3{
+    font-size: var(--fs-3);
+}
+.h4{
+    font-size: var(--fs-4);
+}
+.btn{
+    color: var(--cinnamon-satin);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-700);
+    border: 2px solid var(--cinnamon-satin);
+    max-width: max-content;
+    padding: 12px 28px;
+    border-radius: var(--radius-pill);
+    transition: var(--transition-1);
+    will-change: tranform;
+}
+.btn:is(:hover, :focus-visible){
+    transform: translateY(-4px);
+}
+.btn-primary, .btn-secondary:is(:hover, :focus-visible){
+    background-color: var(--cinnamon-satin);
+    color: var(--white);
+}
+.section-text{
+    font-size: var(--fs-5);
+}
 /* -------------------- Reused CSS End -------------------- */
 /* -------------------- Header Section CSS Start -------------------- */
 
@@ -223,79 +266,50 @@ body.nav-active{
 }
 
 /* -------------------- Header Section CSS End -------------------- */
-/* -------------------- Header Section CSS Start -------------------- */
+/* -------------------- Hero Section CSS Start -------------------- */
+.hero{
+    padding-block-start: cal(var(--section-padding) + 50px);
+    background-color: var(--cultured);
+}
+.hero .container{
+    display: grid;
+    gap: 50px;
+}
+.hero-banner{
+    position: relative;
+    max-width: max-content;
+    margin-inline: auto;
+}
+.hero-banner .w-100{
+    mask-image: url("../images/blob.svg");
+    -webkit-mask-image: url("../images/blob.svg");
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    mask-size: auto;
+    -webkit-mask-size: auto;
+}
+.hero .shape{
+    position: absolute;
+    bottom: 10%;
+    right: 2%;
+    filter: drop-shadow(var(--shadow-2));
+}
+.hero-content{
+    text-align: center;
+}
+.hero .section-text{
+    margin-block: 24px 36px;
+}
+.btn-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+/* -------------------- Hero Section CSS End -------------------- */
 /* -------------------- Header Section CSS Start -------------------- */
 /* -------------------- Header Section CSS Start -------------------- */
 /* -------------------- Global Variable Start -------------------- */
-
-
-
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #PROJECTS
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #CONTACT
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
