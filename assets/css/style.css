@@ -161,6 +161,13 @@ body.nav-active{
 .section-text{
     font-size: var(--fs-5);
 }
+.section-title{
+    margin-block-end: 16px;
+}
+.grid-list{
+    display: grid;
+    gap: 30px;
+}
 /* -------------------- Reused CSS End -------------------- */
 /* -------------------- Header Section CSS Start -------------------- */
 
@@ -310,6 +317,12 @@ body.nav-active{
     gap: 12px;
 }
 /* -------------------- Hero Section CSS End -------------------- */
-/* -------------------- Header Section CSS Start -------------------- */
+/* -------------------- About Section CSS Start -------------------- */
+.about .wrapper{
+    display: grid;
+    gap: 50px;
+    margin-block-end: 70px;
+}
+/* -------------------- About Section CSS End -------------------- */
 /* -------------------- Header Section CSS Start -------------------- */
 /* -------------------- Global Variable Start -------------------- */
