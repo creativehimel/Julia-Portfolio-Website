@@ -435,6 +435,16 @@ textarea.input-field{
     resize: vertical;
 }
 /* -------------------- Contact Section CSS End -------------------- */
-/* -------------------- Header Section CSS Start -------------------- */
+/* -------------------- Footer Section CSS Start -------------------- */
+.footer{
+    padding-block: 40px;
+}
+.copyright{
+    margin-block-end: 12px;
+}
+.footer .social-link{
+    color: var(--charcoal);
+}
+/* -------------------- Footer Section CSS End -------------------- */
 /* -------------------- Header Section CSS Start -------------------- */
 /* -------------------- Global Variable Start -------------------- */
