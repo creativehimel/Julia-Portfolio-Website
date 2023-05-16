@@ -323,6 +323,35 @@ body.nav-active{
     gap: 50px;
     margin-block-end: 70px;
 }
+.progress-list .label-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 4px;
+}
+.progress-item:not(:last-child){
+    margin-block-end: 16px;
+}
+.progress {
+    background-color: var(--raisin-black_a6);
+    height: 6px;
+    width: 100%;
+    border-radius: var(--radius-pill);
+    overflow: hidden;
+}
+.progress-fill{
+    height: inherit;
+}
+.about-card{
+    text-align: center;
+}
+.about-card .card-icon{
+    max-width: max-content;
+    margin-inline: auto;
+}
+.about-card .card-title{
+    margin-block: 16px 10px;
+}
 /* -------------------- About Section CSS End -------------------- */
 /* -------------------- Header Section CSS Start -------------------- */
 /* -------------------- Global Variable Start -------------------- */
